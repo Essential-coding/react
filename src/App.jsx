@@ -13,8 +13,6 @@ function App() {
 
       <Routes>
 
-        <Route path="/index.html" element={<index.html />} />
-
         <Route path="/home" element={<Home />} />
 
         <Route path="/services" element={<Services />} />
