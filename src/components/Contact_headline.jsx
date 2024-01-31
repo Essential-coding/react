@@ -7,7 +7,7 @@ const Contact_headline = () => {
     <div className='container-fluid headline'>
         <div className='container title-container'>
             <div className='title'>
-                <a href="/home">Home</a>
+                <a href="/">Home</a>
             </div>
             <div className='title'>
                 <a href="/contact">Contact</a>

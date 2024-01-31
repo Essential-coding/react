@@ -48,7 +48,7 @@ const TeamMembersTestimonials = () => {
             </div>
             <div className="wrapping-button">
 
-              <Yellow_button type="btn-yellow center-content btn-yellow-edited" url="/home" icon="fa-solid fa-arrow-up-right-from-square" text="Browse Team"></Yellow_button>
+              <Yellow_button type="btn-yellow center-content btn-yellow-edited" url="/" icon="fa-solid fa-arrow-up-right-from-square" text="Browse Team"></Yellow_button>
             </div>
           </header>
         </div>
@@ -151,7 +151,7 @@ const TeamMembersTestimonials = () => {
 
             <div className="container-btn-testimonial">
 
-              <Black_button type="btn-black btn-login center-content" url="/home" text="All Reviews" icon="fa-solid fa-arrow-up-right-from-square"></Black_button>
+              <Black_button type="btn-black btn-login center-content" url="/" text="All Reviews" icon="fa-solid fa-arrow-up-right-from-square"></Black_button>
 
             </div>
           </div>

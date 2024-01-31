@@ -14,9 +14,9 @@ const Showcase = () => {
           <p>Establish your vision and value proposition and turn them into testable prototypes.</p>
 
 
-          <Yellow_button text="Get consulting" type="btn-yellow btn-login" icon="fa-solid fa-arrow-up-right-from-square" url="/home"></Yellow_button>
+          <Yellow_button text="Get consulting" type="btn-yellow btn-login" icon="fa-solid fa-arrow-up-right-from-square" url="/"></Yellow_button>
 
-          <Transparent_button text="Learn more" type="btn-transparent btn-login" url="/home"></Transparent_button>
+          <Transparent_button text="Learn more" type="btn-transparent btn-login" url="/"></Transparent_button>
           
         
         </div>

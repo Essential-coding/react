@@ -16,7 +16,7 @@ const SignUpSection = () => {
             <input type="email" className="email" id="email" placeholder="username@domain.com" />
           </div>
           <div className="laptop-desktop-btn">
-            <Yellow_button text="subscribe" url="/home" type="btn-yellow subscribe-btn">
+            <Yellow_button text="subscribe" url="/" type="btn-yellow subscribe-btn">
             subscribe <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
             </Yellow_button>
             
@@ -26,7 +26,7 @@ const SignUpSection = () => {
         </div>
         <div className="wrapper">
           <div className="mobile-tablet-btn">
-          <Yellow_button text="subscribe" url="/home" type="btn-yellow subscribe-btn">
+          <Yellow_button text="subscribe" url="/" type="btn-yellow subscribe-btn">
             subscribe <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
             </Yellow_button>
             

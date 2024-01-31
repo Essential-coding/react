@@ -36,7 +36,7 @@ const ServicesSection = () => {
 
       <footer className="btn-services container">
 
-        <Transparent_button type="btn-transparent center-content" url="/home" icon="fa-solid fa-arrow-up-right-from-square" text="Browse Services"></Transparent_button>
+        <Transparent_button type="btn-transparent center-content" url="/" icon="fa-solid fa-arrow-up-right-from-square" text="Browse Services"></Transparent_button>
         
       </footer>
 

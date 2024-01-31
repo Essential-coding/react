@@ -47,7 +47,7 @@ const ProjectAndCase = () => {
         </div>
         <div className="center-content">
 
-            <Black_button text="All Recent Projects" url="/home" type="btn-black btn-login" icon="fa-solid fa-arrow-up-right-from-square"></Black_button>
+            <Black_button text="All Recent Projects" url="/" type="btn-black btn-login" icon="fa-solid fa-arrow-up-right-from-square"></Black_button>
 
         </div>
       </div>

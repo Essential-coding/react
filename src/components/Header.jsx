@@ -36,12 +36,12 @@ const Header = () => {
       </div>
       <div className="menu">
       <nav>
-            <Link to="/home" >Home</Link>
+            <Link to="/" >Home</Link>
             <Link to="/services" >Service</Link>
             <Link to="/news" >News</Link>
             <Link to="/contact" >Contact</Link>
           </nav>
-       <Yellow_button text="Login" type="btn-yellow btn-login" icon="fa-solid fa-arrow-up-right-from-square" url="/home"></Yellow_button>
+       <Yellow_button text="Login" type="btn-yellow btn-login" icon="fa-solid fa-arrow-up-right-from-square" url="/"></Yellow_button>
       </div>
     </div>
   </header>

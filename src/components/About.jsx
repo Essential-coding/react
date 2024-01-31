@@ -23,8 +23,8 @@ const AboutCompanySection = () => {
 
           <div>
             
-                <Black_button type="btn-black center-content" url="/home" icon="fa-solid fa-arrow-up-right-from-square" text="Learn More"></Black_button>
-                <Black_button type="btn-video center-content" url="/home" icon="fa-regular fa-circle-play" text="Intro Video"></Black_button>
+                <Black_button type="btn-black center-content" url="/" icon="fa-solid fa-arrow-up-right-from-square" text="Learn More"></Black_button>
+                <Black_button type="btn-video center-content" url="/" icon="fa-regular fa-circle-play" text="Intro Video"></Black_button>
           </div>
         </header>
 

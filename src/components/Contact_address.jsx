@@ -84,11 +84,11 @@ const Contact_address = () => {
 
 
               <p className='info-text'>
-              <a href="/home">info@crito.com</a>
+              <a href="/">info@crito.com</a>
               </p>
 
               <p className='info-text'>
-              <a href="/home">support@crito.com</a>
+              <a href="/">support@crito.com</a>
               </p>
             </div>
 

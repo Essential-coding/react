@@ -13,7 +13,7 @@ const Footer = () => {
 
           <div className='links logo-content'>
             
-              <a href="/home">
+              <a href="/">
                 <img src={logo} alt="logo representing the company called Crito" />
               </a>
        
@@ -24,7 +24,7 @@ const Footer = () => {
 
           <div className='links all-links-not-logo'>
             <h2 className='links-headline'>
-              <a href="/home">Company</a>
+              <a href="/">Company</a>
             </h2>
             <ul>
               <a href="#">Free Ebooks</a>
@@ -36,7 +36,7 @@ const Footer = () => {
 
           <div className='links all-links-not-logo'>
             <h2 className='links-headline'>
-              <a href="/home">Help</a>
+              <a href="/">Help</a>
             </h2>
             <ul>
               <a href="#">Free Ebooks</a>
@@ -48,7 +48,7 @@ const Footer = () => {
 
           <div className='links all-links-not-logo'>
             <h2 className='links-headline'>
-              <a href="/home">Resources</a>
+              <a href="/">Resources</a>
             </h2>
             <ul>
               <a href="#">Free Ebooks</a>
@@ -60,7 +60,7 @@ const Footer = () => {
 
           <div className='links all-links-not-logo'>
             <h2 className='links-headline'>
-              <a href="/home">Link</a>
+              <a href="/">Link</a>
             </h2>
             <ul>
               <a href="#">Free Ebooks</a>
