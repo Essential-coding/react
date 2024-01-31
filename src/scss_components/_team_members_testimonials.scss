@@ -1,0 +1,331 @@
+header {
+    padding: 0;
+}
+
+
+
+.meet-our-team {
+
+
+    padding-top: 120px;
+    padding-bottom: 90px;
+    background-color: #F0D082;
+
+
+
+
+
+    .container {
+
+        .mobile-container {
+            display: grid;
+            place-items: center;
+            grid-template-columns: auto;
+            text-align: center;
+
+
+
+
+
+
+
+            .mobile-header {
+                display: grid;
+                grid-template-columns: auto;
+
+                .section-title {
+                    padding-top: 0;
+
+                    h2 {
+                        padding-bottom: 25px;
+                    }
+                }
+
+                .btn-yellow-edited {
+                    border: 1px solid #000;
+                }
+            }
+
+
+        }
+
+        .tablet-container {
+            // Default styles for .tablet-container go here.
+
+            @media (min-width: 320px) {
+                display: none; // Hide on screens >= 320px wide
+            }
+
+            @media (min-width: 768px) {
+                display: block; // Show on screens >= 768px wide
+
+                .tablet-header {
+                    display: grid;
+                    grid-template-columns: 3fr 1fr;
+
+                    .wrapping-button {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+
+                        .btn-yellow-edited {
+                            border: 1px solid #000;
+                        }
+                    }
+                }
+            }
+
+            @media (min-width: 992px) {
+                display: none; // Hide again on screens >= 992px wide
+            }
+        }
+
+
+
+        //laptop + larger screens
+
+        .laptop-container {
+
+            @media(min-width: 320px) {
+                display: none;
+            }
+
+            @media(min-width: 992px) {
+                display: block;
+
+                .laptop-header {
+                    display: grid;
+                    grid-template-columns: 4fr 1fr;
+
+
+                    .wrapping-button {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+
+                        .btn-yellow-edited {
+                            border: 1px solid #000;
+                        }
+                    }
+                }
+
+            }
+
+
+
+
+            @media(min-width: 1200px) {
+                display: block;
+
+                .laptop-header {
+                    display: flex;
+                    justify-content: space-between;
+
+
+                    .wrapping-button {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+
+            }
+
+        }
+
+
+
+
+
+        @media (min-width:768px) {
+            .mobile-container {
+                display: none;
+            }
+        }
+
+
+        @media(min-width:320px) {
+            .image-persons {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+            }
+
+
+        }
+
+        @media(min-width:768px) {
+            .wrap-img-content {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 50px;
+            }
+        }
+
+        @media(min-width:992px) {
+            .wrap-img-content {
+                display: flex;
+                justify-content: space-evenly;
+            }
+        }
+
+
+
+        .button-container {
+            border: none;
+            outline: none;
+
+
+
+            .circle-button {
+                width: 15px;
+                height: 15px;
+                border-radius: 50%;
+                cursor: pointer;
+                margin: 0 8px;
+                opacity: 0.2;
+                transition: opacity 0.3s;
+
+                background-color: #000000;
+
+                &:hover {
+                    color: black;
+
+                    opacity: 1.0;
+                }
+
+            }
+
+
+        }
+
+
+    }
+
+    // container
+
+
+    .container-1520px-testimonial {
+
+        background-color: #ffffff;
+
+
+        @media(min-width:1520px) {
+            max-width: 1520px;
+            margin: auto;
+        }
+
+
+
+
+        @media(min-width:992px) {
+            display: grid;
+            grid-template-columns: auto;
+            padding-top: 90px;
+            margin-top: 50px;
+        }
+
+
+
+
+
+        header {
+            @media(min-width:768px) {
+                padding-top: 0;
+            }
+
+        }
+
+
+
+
+        .container {
+
+            @media(min-width:768px) {
+                display: grid;
+                grid-template-columns: 33% 33% 33%;
+
+                gap: 15px;
+
+            }
+
+
+
+
+
+            .wrapping-content {
+                margin: 15px 0;
+                border: 1px solid black;
+
+
+
+
+
+
+                p {
+                    display: flex;
+                    justify-content: left;
+                }
+
+                .stars {
+                    display: flex;
+                    padding-bottom: 25px;
+
+                    .custom-icon {
+                        color: #F94D1C;
+                        /* Set the desired color */
+                    }
+                }
+
+
+                .footer-testimonial {
+                    display: flex;
+                    justify-content: left;
+                    padding: 25px 0;
+
+
+
+
+
+                    .image-footer {
+
+                        padding-right: 15px;
+
+                    }
+
+                    .section-title {
+                        padding: 0;
+                        ;
+                    }
+                }
+
+
+
+
+            }
+
+            .container-btn-testimonial {
+                display: grid;
+                grid-template-columns: auto;
+
+                @media(min-width:768px) {
+                    grid-column: 2/3;
+                    width: 170px;
+                    margin: auto;
+                }
+            }
+
+
+
+        }
+
+
+
+    }
+
+
+}

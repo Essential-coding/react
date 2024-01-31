@@ -1,0 +1,97 @@
+
+.sign-up {
+    background-color: #F0EFE9;
+
+    .sign-up-lines {
+        display: none;
+    }
+
+    @media(min-width:1920px) {
+        position: relative;
+
+        .sign-up-lines {
+            display: block;
+            position: absolute;
+            bottom: 25%;
+            right: 0;
+        }
+    }
+
+    .container {
+        background-color: #F0EFE9;
+
+        .wrapper {
+
+            text-align: center;
+            flex-direction: column;
+            padding: 15px 0;
+
+            .box-1 {
+                border: 1px solid black;
+            }
+
+            .sign-up-title {
+                padding-bottom: 15px;
+                ;
+            }
+
+
+
+            @media (min-width:768px) {
+                display: flex;
+                flex-direction: initial;
+                justify-content: end;
+                align-items: baseline;
+
+
+                .sign-up-title {
+                    flex: 2;
+                }
+
+                .mail-box {
+                    flex: 1;
+                }
+
+                .subscribe-btn {
+                    margin-right: 12px;
+                }
+            }
+
+            @media(min-width:992px) {
+                .sign-up-title {
+                    flex: 3;
+                }
+
+                .mobile-tablet-btn {
+                    display: none;
+                }
+
+                .laptop-desktop-btn {
+                    display: block;
+                }
+            }
+
+
+        }
+
+        .email {
+            padding: 6px 12px;
+            border-radius: 25px;
+        }
+
+        .laptop-desktop-btn {
+            display: none;
+        }
+
+        .subscribe-btn {
+            display: inline-block;
+            width: 185px;
+            border: 1px solid black;
+            padding: 6px 12px;
+
+        }
+
+
+    }
+
+}

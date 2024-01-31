@@ -1,0 +1,143 @@
+.about-company {
+    .container {
+        display: grid;
+        grid-template-columns: auto;
+
+        @media(min-width:768px) {
+            grid-template-columns: 45% auto;
+            column-gap: 5%;
+            grid-template-areas: "aside header";
+
+            header {
+                grid-area: header;
+            }
+
+            aside {
+                grid-area: aside;
+            }
+
+        }
+
+
+        @media(min-width:992px) {
+            column-gap: 15%;
+        }
+
+
+
+
+
+
+
+
+        header {
+            background-color: #ffff;
+            padding: 0;
+            display: grid;
+            grid-template-columns: auto; //mobile
+            text-align: center;
+
+            button {
+                background-color: transparent;
+                border: none;
+                cursor: auto;
+            }
+
+            @media (min-width:992px) {
+                text-align: left;
+            }
+
+            @media (min-width:1200px) {
+                button {
+                    display: flex;
+                    align-items: center;
+                    border: none;
+                    background-color: transparent;
+
+
+
+                    .btn-video {
+                        padding: 0;
+                        margin-top: 0;
+                        border: none;
+                        margin-left: 15px;
+
+
+                    }
+
+                    .btn-video:hover {
+                        margin-top: 0;
+                        padding: 5px 10px;
+                    }
+
+
+                }
+            }
+
+
+
+
+            .btn-video:hover {
+                transform: scale(1.1);
+                border-radius: 25px;
+                background-color: #000000;
+                color: #ffffff;
+
+
+            }
+
+
+
+
+
+
+            .section-title {
+                padding: 0;
+            }
+
+
+        }
+
+
+        aside {
+
+
+            .about-image {
+                position: relative;
+
+                .about-lines-img {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 40%;
+                    z-index: 1;
+                }
+
+                img {
+                    width: 100%;
+
+                    @media(min-width:320px) {
+                        padding-top: 25px;
+
+                    }
+
+                    @media(min-width:768px) {
+                        padding: 0px;
+
+                    }
+                }
+
+                .about-quote {
+                    width: 90%;
+                    padding: 12px;
+                    position: absolute;
+                    bottom: -2%;
+                    left: -15%;
+                }
+
+            }
+        }
+    }
+}
+
+
